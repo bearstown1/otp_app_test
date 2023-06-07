@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		435505E72A30743E0038B944 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435505E62A30743E0038B944 /* AppDelegate.swift */; };
+		435505E92A30743E0038B944 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435505E82A30743E0038B944 /* SceneDelegate.swift */; };
+		435505EB2A30743E0038B944 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435505EA2A30743E0038B944 /* ViewController.swift */; };
+		435505EE2A30743E0038B944 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 435505EC2A30743E0038B944 /* Main.storyboard */; };
+		435505F12A30743E0038B944 /* bandi_otp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 435505EF2A30743E0038B944 /* bandi_otp.xcdatamodeld */; };
+		435505F32A30743F0038B944 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 435505F22A30743F0038B944 /* Assets.xcassets */; };
+		435505F62A30743F0038B944 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 435505F42A30743F0038B944 /* LaunchScreen.storyboard */; };
+		435506012A30743F0038B944 /* bandi_otpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435506002A30743F0038B944 /* bandi_otpTests.swift */; };
+		4355060B2A30743F0038B944 /* bandi_otpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4355060A2A30743F0038B944 /* bandi_otpUITests.swift */; };
+		4355060D2A30743F0038B944 /* bandi_otpUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4355060C2A30743F0038B944 /* bandi_otpUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		435505FD2A30743F0038B944 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 435505DB2A30743E0038B944 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 435505E22A30743E0038B944;
+			remoteInfo = bandi_otp;
+		};
+		435506072A30743F0038B944 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 435505DB2A30743E0038B944 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 435505E22A30743E0038B944;
+			remoteInfo = bandi_otp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		435505E32A30743E0038B944 /* bandi_otp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bandi_otp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		435505E62A30743E0038B944 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		435505E82A30743E0038B944 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		435505EA2A30743E0038B944 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		435505ED2A30743E0038B944 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		435505F02A30743E0038B944 /* bandi_otp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = bandi_otp.xcdatamodel; sourceTree = "<group>"; };
+		435505F22A30743F0038B944 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		435505F52A30743F0038B944 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		435505F72A30743F0038B944 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		435505FC2A30743F0038B944 /* bandi_otpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bandi_otpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		435506002A30743F0038B944 /* bandi_otpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bandi_otpTests.swift; sourceTree = "<group>"; };
+		435506062A30743F0038B944 /* bandi_otpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bandi_otpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4355060A2A30743F0038B944 /* bandi_otpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bandi_otpUITests.swift; sourceTree = "<group>"; };
+		4355060C2A30743F0038B944 /* bandi_otpUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bandi_otpUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		435505E02A30743E0038B944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435505F92A30743F0038B944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435506032A30743F0038B944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		435505DA2A30743E0038B944 = {
+			isa = PBXGroup;
+			children = (
+				435505E52A30743E0038B944 /* bandi_otp */,
+				435505FF2A30743F0038B944 /* bandi_otpTests */,
+				435506092A30743F0038B944 /* bandi_otpUITests */,
+				435505E42A30743E0038B944 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		435505E42A30743E0038B944 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				435505E32A30743E0038B944 /* bandi_otp.app */,
+				435505FC2A30743F0038B944 /* bandi_otpTests.xctest */,
+				435506062A30743F0038B944 /* bandi_otpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		435505E52A30743E0038B944 /* bandi_otp */ = {
+			isa = PBXGroup;
+			children = (
+				435505E62A30743E0038B944 /* AppDelegate.swift */,
+				435505E82A30743E0038B944 /* SceneDelegate.swift */,
+				435505EA2A30743E0038B944 /* ViewController.swift */,
+				435505EC2A30743E0038B944 /* Main.storyboard */,
+				435505F22A30743F0038B944 /* Assets.xcassets */,
+				435505F42A30743F0038B944 /* LaunchScreen.storyboard */,
+				435505F72A30743F0038B944 /* Info.plist */,
+				435505EF2A30743E0038B944 /* bandi_otp.xcdatamodeld */,
+			);
+			path = bandi_otp;
+			sourceTree = "<group>";
+		};
+		435505FF2A30743F0038B944 /* bandi_otpTests */ = {
+			isa = PBXGroup;
+			children = (
+				435506002A30743F0038B944 /* bandi_otpTests.swift */,
+			);
+			path = bandi_otpTests;
+			sourceTree = "<group>";
+		};
+		435506092A30743F0038B944 /* bandi_otpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4355060A2A30743F0038B944 /* bandi_otpUITests.swift */,
+				4355060C2A30743F0038B944 /* bandi_otpUITestsLaunchTests.swift */,
+			);
+			path = bandi_otpUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		435505E22A30743E0038B944 /* bandi_otp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 435506102A30743F0038B944 /* Build configuration list for PBXNativeTarget "bandi_otp" */;
+			buildPhases = (
+				435505DF2A30743E0038B944 /* Sources */,
+				435505E02A30743E0038B944 /* Frameworks */,
+				435505E12A30743E0038B944 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bandi_otp;
+			productName = bandi_otp;
+			productReference = 435505E32A30743E0038B944 /* bandi_otp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		435505FB2A30743F0038B944 /* bandi_otpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 435506132A30743F0038B944 /* Build configuration list for PBXNativeTarget "bandi_otpTests" */;
+			buildPhases = (
+				435505F82A30743F0038B944 /* Sources */,
+				435505F92A30743F0038B944 /* Frameworks */,
+				435505FA2A30743F0038B944 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				435505FE2A30743F0038B944 /* PBXTargetDependency */,
+			);
+			name = bandi_otpTests;
+			productName = bandi_otpTests;
+			productReference = 435505FC2A30743F0038B944 /* bandi_otpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		435506052A30743F0038B944 /* bandi_otpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 435506162A30743F0038B944 /* Build configuration list for PBXNativeTarget "bandi_otpUITests" */;
+			buildPhases = (
+				435506022A30743F0038B944 /* Sources */,
+				435506032A30743F0038B944 /* Frameworks */,
+				435506042A30743F0038B944 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				435506082A30743F0038B944 /* PBXTargetDependency */,
+			);
+			name = bandi_otpUITests;
+			productName = bandi_otpUITests;
+			productReference = 435506062A30743F0038B944 /* bandi_otpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		435505DB2A30743E0038B944 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					435505E22A30743E0038B944 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					435505FB2A30743F0038B944 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 435505E22A30743E0038B944;
+					};
+					435506052A30743F0038B944 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 435505E22A30743E0038B944;
+					};
+				};
+			};
+			buildConfigurationList = 435505DE2A30743E0038B944 /* Build configuration list for PBXProject "bandi_otp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 435505DA2A30743E0038B944;
+			productRefGroup = 435505E42A30743E0038B944 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				435505E22A30743E0038B944 /* bandi_otp */,
+				435505FB2A30743F0038B944 /* bandi_otpTests */,
+				435506052A30743F0038B944 /* bandi_otpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		435505E12A30743E0038B944 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				435505F62A30743F0038B944 /* LaunchScreen.storyboard in Resources */,
+				435505F32A30743F0038B944 /* Assets.xcassets in Resources */,
+				435505EE2A30743E0038B944 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435505FA2A30743F0038B944 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435506042A30743F0038B944 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		435505DF2A30743E0038B944 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				435505EB2A30743E0038B944 /* ViewController.swift in Sources */,
+				435505E72A30743E0038B944 /* AppDelegate.swift in Sources */,
+				435505F12A30743E0038B944 /* bandi_otp.xcdatamodeld in Sources */,
+				435505E92A30743E0038B944 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435505F82A30743F0038B944 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				435506012A30743F0038B944 /* bandi_otpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435506022A30743F0038B944 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4355060B2A30743F0038B944 /* bandi_otpUITests.swift in Sources */,
+				4355060D2A30743F0038B944 /* bandi_otpUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		435505FE2A30743F0038B944 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 435505E22A30743E0038B944 /* bandi_otp */;
+			targetProxy = 435505FD2A30743F0038B944 /* PBXContainerItemProxy */;
+		};
+		435506082A30743F0038B944 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 435505E22A30743E0038B944 /* bandi_otp */;
+			targetProxy = 435506072A30743F0038B944 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		435505EC2A30743E0038B944 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				435505ED2A30743E0038B944 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		435505F42A30743F0038B944 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				435505F52A30743F0038B944 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4355060E2A30743F0038B944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4355060F2A30743F0038B944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		435506112A30743F0038B944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = bandi_otp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kor.co.bandisnc.bandi-otp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		435506122A30743F0038B944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = bandi_otp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kor.co.bandisnc.bandi-otp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		435506142A30743F0038B944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kor.co.bandisnc.bandi-otpTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bandi_otp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/bandi_otp";
+			};
+			name = Debug;
+		};
+		435506152A30743F0038B944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kor.co.bandisnc.bandi-otpTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bandi_otp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/bandi_otp";
+			};
+			name = Release;
+		};
+		435506172A30743F0038B944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kor.co.bandisnc.bandi-otpUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = bandi_otp;
+			};
+			name = Debug;
+		};
+		435506182A30743F0038B944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kor.co.bandisnc.bandi-otpUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = bandi_otp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		435505DE2A30743E0038B944 /* Build configuration list for PBXProject "bandi_otp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4355060E2A30743F0038B944 /* Debug */,
+				4355060F2A30743F0038B944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		435506102A30743F0038B944 /* Build configuration list for PBXNativeTarget "bandi_otp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				435506112A30743F0038B944 /* Debug */,
+				435506122A30743F0038B944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		435506132A30743F0038B944 /* Build configuration list for PBXNativeTarget "bandi_otpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				435506142A30743F0038B944 /* Debug */,
+				435506152A30743F0038B944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		435506162A30743F0038B944 /* Build configuration list for PBXNativeTarget "bandi_otpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				435506172A30743F0038B944 /* Debug */,
+				435506182A30743F0038B944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		435505EF2A30743E0038B944 /* bandi_otp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				435505F02A30743E0038B944 /* bandi_otp.xcdatamodel */,
+			);
+			currentVersion = 435505F02A30743E0038B944 /* bandi_otp.xcdatamodel */;
+			path = bandi_otp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 435505DB2A30743E0038B944 /* Project object */;
+}
