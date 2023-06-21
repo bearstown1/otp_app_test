@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		432E15A52A3C1CAA009A2996 /* OtpGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432E15A42A3C1CAA009A2996 /* OtpGenerator.swift */; };
+		432E15AB2A3C5176009A2996 /* OtpCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432E15AA2A3C5176009A2996 /* OtpCodeViewController.swift */; };
+		432E15AD2A3C5195009A2996 /* OtpCodeWarningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432E15AC2A3C5195009A2996 /* OtpCodeWarningViewController.swift */; };
+		43307B4E2A413B7B0097900E /* OtpQrScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43307B4D2A413B7B0097900E /* OtpQrScanViewController.swift */; };
+		43307B502A413D170097900E /* QrReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43307B4F2A413D170097900E /* QrReaderView.swift */; };
+		43307B542A4162470097900E /* OtpInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43307B532A4162470097900E /* OtpInfo.swift */; };
+		43307B562A4166560097900E /* OtpSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43307B552A4166560097900E /* OtpSettingViewController.swift */; };
+		43307B5F2A417F0B0097900E /* PasswordChangeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43307B5D2A417F0B0097900E /* PasswordChangeCell.swift */; };
+		43307B602A417F0B0097900E /* PasswordChangeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43307B5E2A417F0B0097900E /* PasswordChangeCell.xib */; };
+		43307B632A417F4D0097900E /* DeviceAuthCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43307B612A417F4D0097900E /* DeviceAuthCell.swift */; };
+		43307B642A417F4D0097900E /* DeviceAuthCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43307B622A417F4D0097900E /* DeviceAuthCell.xib */; };
+		433658402A41977400CF1AF8 /* PasswordChange.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4336583F2A41977400CF1AF8 /* PasswordChange.storyboard */; };
+		433658422A419A7F00CF1AF8 /* PasswordChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433658412A419A7F00CF1AF8 /* PasswordChangeViewController.swift */; };
+		4342EE1D2A316E6B00D02E16 /* NewPassWord.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4342EE1C2A316E6B00D02E16 /* NewPassWord.storyboard */; };
+		4342EE212A32B71E00D02E16 /* OtpTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4342EE202A32B71E00D02E16 /* OtpTabbarController.swift */; };
+		4342EE232A32B7AF00D02E16 /* Otp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4342EE222A32B7AF00D02E16 /* Otp.storyboard */; };
+		4350D5212A32ED0A00DBE29B /* OtpUserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4350D5202A32ED0A00DBE29B /* OtpUserListViewController.swift */; };
+		4350D5232A32F50200DBE29B /* OtpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4350D5222A32F50200DBE29B /* OtpViewController.swift */; };
+		4350D5252A32F8B300DBE29B /* OtpUserAdd.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4350D5242A32F8B300DBE29B /* OtpUserAdd.storyboard */; };
+		4350D5272A32F8E200DBE29B /* OtpUserAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4350D5262A32F8E200DBE29B /* OtpUserAddViewController.swift */; };
 		435505E72A30743E0038B944 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435505E62A30743E0038B944 /* AppDelegate.swift */; };
 		435505E92A30743E0038B944 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435505E82A30743E0038B944 /* SceneDelegate.swift */; };
 		435505EB2A30743E0038B944 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435505EA2A30743E0038B944 /* ViewController.swift */; };
@@ -17,6 +37,12 @@
 		435506012A30743F0038B944 /* bandi_otpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435506002A30743F0038B944 /* bandi_otpTests.swift */; };
 		4355060B2A30743F0038B944 /* bandi_otpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4355060A2A30743F0038B944 /* bandi_otpUITests.swift */; };
 		4355060D2A30743F0038B944 /* bandi_otpUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4355060C2A30743F0038B944 /* bandi_otpUITestsLaunchTests.swift */; };
+		4355061A2A3079350038B944 /* NewPassWordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435506192A3079350038B944 /* NewPassWordController.swift */; };
+		43BBBFFA2A39953100F118D8 /* UserListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BBBFF82A39953000F118D8 /* UserListCell.swift */; };
+		43BBBFFB2A39953100F118D8 /* UserListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43BBBFF92A39953000F118D8 /* UserListCell.xib */; };
+		43BBC0052A3BF27500F118D8 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BBC0042A3BF27500F118D8 /* CircularProgressView.swift */; };
+		43BBC0082A3C191A00F118D8 /* SwiftOTP in Frameworks */ = {isa = PBXBuildFile; productRef = 43BBC0072A3C191A00F118D8 /* SwiftOTP */; };
+		43E388232A330F6E004ABB4E /* TextFieldEffects in Frameworks */ = {isa = PBXBuildFile; productRef = 43E388222A330F6E004ABB4E /* TextFieldEffects */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +63,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		432E15A42A3C1CAA009A2996 /* OtpGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpGenerator.swift; sourceTree = "<group>"; };
+		432E15AA2A3C5176009A2996 /* OtpCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpCodeViewController.swift; sourceTree = "<group>"; };
+		432E15AC2A3C5195009A2996 /* OtpCodeWarningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpCodeWarningViewController.swift; sourceTree = "<group>"; };
+		43307B4D2A413B7B0097900E /* OtpQrScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpQrScanViewController.swift; sourceTree = "<group>"; };
+		43307B4F2A413D170097900E /* QrReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrReaderView.swift; sourceTree = "<group>"; };
+		43307B532A4162470097900E /* OtpInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpInfo.swift; sourceTree = "<group>"; };
+		43307B552A4166560097900E /* OtpSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpSettingViewController.swift; sourceTree = "<group>"; };
+		43307B5D2A417F0B0097900E /* PasswordChangeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordChangeCell.swift; sourceTree = "<group>"; };
+		43307B5E2A417F0B0097900E /* PasswordChangeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PasswordChangeCell.xib; sourceTree = "<group>"; };
+		43307B612A417F4D0097900E /* DeviceAuthCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceAuthCell.swift; sourceTree = "<group>"; };
+		43307B622A417F4D0097900E /* DeviceAuthCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeviceAuthCell.xib; sourceTree = "<group>"; };
+		4336583F2A41977400CF1AF8 /* PasswordChange.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PasswordChange.storyboard; sourceTree = "<group>"; };
+		433658412A419A7F00CF1AF8 /* PasswordChangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordChangeViewController.swift; sourceTree = "<group>"; };
+		4342EE1C2A316E6B00D02E16 /* NewPassWord.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NewPassWord.storyboard; sourceTree = "<group>"; };
+		4342EE202A32B71E00D02E16 /* OtpTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpTabbarController.swift; sourceTree = "<group>"; };
+		4342EE222A32B7AF00D02E16 /* Otp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Otp.storyboard; sourceTree = "<group>"; };
+		4350D5202A32ED0A00DBE29B /* OtpUserListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpUserListViewController.swift; sourceTree = "<group>"; };
+		4350D5222A32F50200DBE29B /* OtpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpViewController.swift; sourceTree = "<group>"; };
+		4350D5242A32F8B300DBE29B /* OtpUserAdd.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OtpUserAdd.storyboard; sourceTree = "<group>"; };
+		4350D5262A32F8E200DBE29B /* OtpUserAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpUserAddViewController.swift; sourceTree = "<group>"; };
 		435505E32A30743E0038B944 /* bandi_otp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bandi_otp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		435505E62A30743E0038B944 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		435505E82A30743E0038B944 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +97,10 @@
 		435506062A30743F0038B944 /* bandi_otpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bandi_otpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4355060A2A30743F0038B944 /* bandi_otpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bandi_otpUITests.swift; sourceTree = "<group>"; };
 		4355060C2A30743F0038B944 /* bandi_otpUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bandi_otpUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		435506192A3079350038B944 /* NewPassWordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPassWordController.swift; sourceTree = "<group>"; };
+		43BBBFF82A39953000F118D8 /* UserListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListCell.swift; sourceTree = "<group>"; };
+		43BBBFF92A39953000F118D8 /* UserListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserListCell.xib; sourceTree = "<group>"; };
+		43BBC0042A3BF27500F118D8 /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +108,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43BBC0082A3C191A00F118D8 /* SwiftOTP in Frameworks */,
+				43E388232A330F6E004ABB4E /* TextFieldEffects in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +130,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		432E15A62A3C1D2C009A2996 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				43BBC0042A3BF27500F118D8 /* CircularProgressView.swift */,
+				432E15A42A3C1CAA009A2996 /* OtpGenerator.swift */,
+				43307B4F2A413D170097900E /* QrReaderView.swift */,
+				43307B532A4162470097900E /* OtpInfo.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		432E15A72A3C1D3B009A2996 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				4342EE222A32B7AF00D02E16 /* Otp.storyboard */,
+				4350D5242A32F8B300DBE29B /* OtpUserAdd.storyboard */,
+				4336583F2A41977400CF1AF8 /* PasswordChange.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		432E15A82A3C1D4C009A2996 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				435505EC2A30743E0038B944 /* Main.storyboard */,
+				4342EE1C2A316E6B00D02E16 /* NewPassWord.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		432E15A92A3C5140009A2996 /* OtpCodeView */ = {
+			isa = PBXGroup;
+			children = (
+				4350D5222A32F50200DBE29B /* OtpViewController.swift */,
+				432E15AA2A3C5176009A2996 /* OtpCodeViewController.swift */,
+				432E15AC2A3C5195009A2996 /* OtpCodeWarningViewController.swift */,
+				4350D5202A32ED0A00DBE29B /* OtpUserListViewController.swift */,
+				43307B4D2A413B7B0097900E /* OtpQrScanViewController.swift */,
+				43307B552A4166560097900E /* OtpSettingViewController.swift */,
+				433658412A419A7F00CF1AF8 /* PasswordChangeViewController.swift */,
+				4350D5262A32F8E200DBE29B /* OtpUserAddViewController.swift */,
+			);
+			path = OtpCodeView;
+			sourceTree = "<group>";
+		};
+		4342EE1E2A32A6BD00D02E16 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				432E15A82A3C1D4C009A2996 /* StoryBoard */,
+				435505EA2A30743E0038B944 /* ViewController.swift */,
+				435506192A3079350038B944 /* NewPassWordController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		4342EE1F2A32A6DF00D02E16 /* OTP */ = {
+			isa = PBXGroup;
+			children = (
+				432E15A72A3C1D3B009A2996 /* StoryBoard */,
+				432E15A62A3C1D2C009A2996 /* Util */,
+				43BBBFF72A3994F200F118D8 /* Cell */,
+				4342EE202A32B71E00D02E16 /* OtpTabbarController.swift */,
+				432E15A92A3C5140009A2996 /* OtpCodeView */,
+			);
+			path = OTP;
+			sourceTree = "<group>";
+		};
 		435505DA2A30743E0038B944 = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +220,10 @@
 		435505E52A30743E0038B944 /* bandi_otp */ = {
 			isa = PBXGroup;
 			children = (
+				4342EE1F2A32A6DF00D02E16 /* OTP */,
+				4342EE1E2A32A6BD00D02E16 /* Login */,
 				435505E62A30743E0038B944 /* AppDelegate.swift */,
 				435505E82A30743E0038B944 /* SceneDelegate.swift */,
-				435505EA2A30743E0038B944 /* ViewController.swift */,
-				435505EC2A30743E0038B944 /* Main.storyboard */,
 				435505F22A30743F0038B944 /* Assets.xcassets */,
 				435505F42A30743F0038B944 /* LaunchScreen.storyboard */,
 				435505F72A30743F0038B944 /* Info.plist */,
@@ -130,6 +249,19 @@
 			path = bandi_otpUITests;
 			sourceTree = "<group>";
 		};
+		43BBBFF72A3994F200F118D8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				43BBBFF82A39953000F118D8 /* UserListCell.swift */,
+				43BBBFF92A39953000F118D8 /* UserListCell.xib */,
+				43307B5D2A417F0B0097900E /* PasswordChangeCell.swift */,
+				43307B5E2A417F0B0097900E /* PasswordChangeCell.xib */,
+				43307B612A417F4D0097900E /* DeviceAuthCell.swift */,
+				43307B622A417F4D0097900E /* DeviceAuthCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +278,10 @@
 			dependencies = (
 			);
 			name = bandi_otp;
+			packageProductDependencies = (
+				43E388222A330F6E004ABB4E /* TextFieldEffects */,
+				43BBC0072A3C191A00F118D8 /* SwiftOTP */,
+			);
 			productName = bandi_otp;
 			productReference = 435505E32A30743E0038B944 /* bandi_otp.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +354,10 @@
 				Base,
 			);
 			mainGroup = 435505DA2A30743E0038B944;
+			packageReferences = (
+				43E388212A330F6E004ABB4E /* XCRemoteSwiftPackageReference "TextFieldEffects" */,
+				43BBC0062A3C191A00F118D8 /* XCRemoteSwiftPackageReference "SwiftOTP" */,
+			);
 			productRefGroup = 435505E42A30743E0038B944 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -234,9 +374,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43307B602A417F0B0097900E /* PasswordChangeCell.xib in Resources */,
 				435505F62A30743F0038B944 /* LaunchScreen.storyboard in Resources */,
+				43307B642A417F4D0097900E /* DeviceAuthCell.xib in Resources */,
+				43BBBFFB2A39953100F118D8 /* UserListCell.xib in Resources */,
 				435505F32A30743F0038B944 /* Assets.xcassets in Resources */,
+				4342EE1D2A316E6B00D02E16 /* NewPassWord.storyboard in Resources */,
+				4342EE232A32B7AF00D02E16 /* Otp.storyboard in Resources */,
 				435505EE2A30743E0038B944 /* Main.storyboard in Resources */,
+				4350D5252A32F8B300DBE29B /* OtpUserAdd.storyboard in Resources */,
+				433658402A41977400CF1AF8 /* PasswordChange.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +408,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43BBBFFA2A39953100F118D8 /* UserListCell.swift in Sources */,
+				43307B632A417F4D0097900E /* DeviceAuthCell.swift in Sources */,
+				432E15A52A3C1CAA009A2996 /* OtpGenerator.swift in Sources */,
+				4355061A2A3079350038B944 /* NewPassWordController.swift in Sources */,
 				435505EB2A30743E0038B944 /* ViewController.swift in Sources */,
+				4342EE212A32B71E00D02E16 /* OtpTabbarController.swift in Sources */,
+				43307B542A4162470097900E /* OtpInfo.swift in Sources */,
 				435505E72A30743E0038B944 /* AppDelegate.swift in Sources */,
+				4350D5232A32F50200DBE29B /* OtpViewController.swift in Sources */,
+				43307B4E2A413B7B0097900E /* OtpQrScanViewController.swift in Sources */,
 				435505F12A30743E0038B944 /* bandi_otp.xcdatamodeld in Sources */,
 				435505E92A30743E0038B944 /* SceneDelegate.swift in Sources */,
+				433658422A419A7F00CF1AF8 /* PasswordChangeViewController.swift in Sources */,
+				4350D5272A32F8E200DBE29B /* OtpUserAddViewController.swift in Sources */,
+				432E15AD2A3C5195009A2996 /* OtpCodeWarningViewController.swift in Sources */,
+				43BBC0052A3BF27500F118D8 /* CircularProgressView.swift in Sources */,
+				4350D5212A32ED0A00DBE29B /* OtpUserListViewController.swift in Sources */,
+				43307B562A4166560097900E /* OtpSettingViewController.swift in Sources */,
+				43307B502A413D170097900E /* QrReaderView.swift in Sources */,
+				43307B5F2A417F0B0097900E /* PasswordChangeCell.swift in Sources */,
+				432E15AB2A3C5176009A2996 /* OtpCodeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +605,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F75KTZ6Q75;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = bandi_otp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -448,6 +613,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -468,6 +634,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F75KTZ6Q75;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = bandi_otp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -475,6 +642,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -600,6 +768,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		43BBC0062A3C191A00F118D8 /* XCRemoteSwiftPackageReference "SwiftOTP" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lachlanbell/SwiftOTP";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		43E388212A330F6E004ABB4E /* XCRemoteSwiftPackageReference "TextFieldEffects" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/raulriera/TextFieldEffects";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		43BBC0072A3C191A00F118D8 /* SwiftOTP */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 43BBC0062A3C191A00F118D8 /* XCRemoteSwiftPackageReference "SwiftOTP" */;
+			productName = SwiftOTP;
+		};
+		43E388222A330F6E004ABB4E /* TextFieldEffects */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 43E388212A330F6E004ABB4E /* XCRemoteSwiftPackageReference "TextFieldEffects" */;
+			productName = TextFieldEffects;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		435505EF2A30743E0038B944 /* bandi_otp.xcdatamodeld */ = {

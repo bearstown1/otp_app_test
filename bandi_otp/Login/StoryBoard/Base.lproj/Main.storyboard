@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="XKA-3d-he8">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="bandi_otp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bandilogo" translatesAutoresizingMaskIntoConstraints="NO" id="Hg0-Id-SVd">
+                                <rect key="frame" x="96" y="133" width="200" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="3SN-ir-cDk"/>
+                                    <constraint firstAttribute="height" constant="100" id="Fu0-zT-ufe"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="비밀번호" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gyg-h6-saC">
+                                <rect key="frame" x="76" y="263" width="240" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="Sx9-ZP-sa2"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="240" id="n2G-i2-KkR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="49E-V4-kGi">
+                                <rect key="frame" x="161" y="328" width="70" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Esl-lf-dk7"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="hsV-ZL-LiB"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="70" id="sei-75-RRD"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="확인">
+                                    <backgroundConfiguration key="background" cornerRadius="40">
+                                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                    </backgroundConfiguration>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="checkPassword:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vP1-lm-oa0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Gyg-h6-saC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2oB-hI-lGK"/>
+                            <constraint firstItem="Hg0-Id-SVd" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="3A4-Vx-H44"/>
+                            <constraint firstItem="Hg0-Id-SVd" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="5zN-JN-y4f"/>
+                            <constraint firstItem="49E-V4-kGi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8y9-XT-Cyl"/>
+                            <constraint firstItem="Hg0-Id-SVd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Jb7-tr-wYV"/>
+                            <constraint firstItem="49E-V4-kGi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QNS-nE-rTe"/>
+                            <constraint firstItem="49E-V4-kGi" firstAttribute="top" secondItem="Gyg-h6-saC" secondAttribute="bottom" constant="25" id="bpX-CD-Qkx"/>
+                            <constraint firstItem="Gyg-h6-saC" firstAttribute="top" secondItem="Hg0-Id-SVd" secondAttribute="bottom" constant="30" id="iyY-e3-yjk"/>
+                            <constraint firstItem="Hg0-Id-SVd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="96" id="jOs-mM-Cl2"/>
+                            <constraint firstItem="Hg0-Id-SVd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jxe-eM-HG4"/>
+                            <constraint firstItem="Gyg-h6-saC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="76" id="mZg-Yq-6KR"/>
+                            <constraint firstItem="Gyg-h6-saC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="otP-DI-Oyu"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="XR3-ez-8Xi">
+                        <barButtonItem key="rightBarButtonItem" id="xfY-NY-cUX">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="PWx-HE-a5G">
+                                <rect key="frame" x="325.33333333333331" y="5" width="51.666666666666686" height="34.333333333333336"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="minus.circle.fill" catalog="system">
+                                    <color key="baseForegroundColor" systemColor="systemYellowColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="initPassword:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qk3-aw-r2R"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="passwordField" destination="Gyg-h6-saC" id="RZc-ua-85v"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1052.6717557251909" y="-34.507042253521128"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="rZ7-rK-sqz">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="XKA-3d-he8" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="dEp-ep-2Fv">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" systemColor="labelColor"/>
+                        </textAttributes>
+                        <navigationBarAppearance key="scrollEdgeAppearance">
+                            <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                        </navigationBarAppearance>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Me3-tR-VFp"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mtq-YB-3PS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130.53435114503816" y="-34.507042253521128"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bandilogo" width="750" height="272"/>
+        <image name="minus.circle.fill" catalog="system" width="128" height="123"/>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
